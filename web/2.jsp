@@ -16,5 +16,12 @@
 <%String username = "zhangsan"; request.setAttribute("username", username);%>
 <c:out value="${username}"/> <br>
 <c:out value="${empty username}"></c:out>
+<form action="index.jsp" method="post">
+  <input type="text" name="role">
+  <input type="submit" name="登录">
+</form>
+<c:if test="${param.role=='admin'}">
+  <c:out value="欢迎管理员"></c:out>
+</c:if>
 </body>
 </html>
