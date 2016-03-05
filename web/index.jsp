@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: dell
-  Date: 2016/2/26
-  Time: 22:04
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<!-- 使用out标签输出常量 -->
+
+<c:out value="This is our first JSTL demo"/>
+</body>
 </html>
