@@ -7,7 +7,8 @@
 </head>
 <body>
 <!-- 使用out标签输出常量 -->
+<c:out value="This is our first JSTL demo"></c:out><br>
 
-<c:out value="This is our first JSTL demo"/>
+
 </body>
 </html>
