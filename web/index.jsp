@@ -1,3 +1,5 @@
+<%@ page import="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List" %>
+<%@ page import="java.util.ArrayList" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -101,7 +103,7 @@
 
 <!-- forEach标签的用法 -->
 <%
-    List animals = new ArrayList();
+    List animals = new ArrayList<>();
     animals.add("tiger");
     animals.add("dog");
     animals.add("elephant");
